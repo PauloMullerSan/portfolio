@@ -1,0 +1,265 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: var(--text-color);
+}
+
+html {
+    display: flex; 
+}
+
+body{
+    display: flex;
+    background-color: var(--body-bg-color);
+    padding: 20px;
+    
+}
+
+header{
+    width: 300px;
+    display: block;
+    
+}
+
+main{
+    display: block;
+    width: 700px;
+    
+}
+
+#profile {
+    display: block;
+    padding: 30px;
+    border-radius: 2rem;
+    margin: 20px;
+    font-size: 9px;
+    background-color: var(--bg-cards);
+    text-align: center;
+}
+
+#profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+#links {
+    display: block;
+    padding: 20px;
+    border-radius: 2rem;
+    margin: 20px;
+    font-size: 6px;
+    background-color: var(--bg-cards);
+    text-align: left;
+    
+}
+
+#links div{
+    display:flex;
+    padding: 5px;
+    align-items: center;
+        
+}
+
+#links img{
+    padding: 0 10px;
+}
+
+/* Technologies =================================== */
+
+#technologies {
+    background-color: var(--bg-cards);
+    border-radius: 1rem;
+    padding: 20px;
+    margin: 20px;
+    font-size: 9px;
+    text-align: left;
+}
+
+#tech{
+    
+    display: grid;
+    grid-template-areas:
+    "div div div"
+    "div div div"
+    "div div div";
+    text-align: center;
+}
+
+#tech h2{
+    padding: 10px;
+}
+
+#technologies h2{
+    background-color: var(--bg-techs);
+    border-radius: 0.8rem;
+    padding: 2px;
+    border: 2px;
+    margin: 5px;
+    font-size: 9px;
+    color: #000;
+}
+
+
+/* Experince =================================== */
+
+#experince { 
+    background-color: var(--bg-cards);
+    border-radius: 1rem;
+    padding: 20px;
+    margin: 20px;
+    font-size: 10px;
+}
+
+.experience-card{
+    display:block;
+    margin: 30px;
+}
+
+/* education =================================== */
+
+#education { 
+    background-color: var(--bg-cards);
+    border-radius: 1rem;
+    padding: 20px;
+    margin: 20px;
+    font-size: 10px;
+    display:block;
+}
+  
+.education-card{
+    display:block;
+    margin: 30px;
+}
+
+/* Main =================================== */
+#projects{
+    display: block;
+    margin: 20px 0 0 0;
+}
+
+.project-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-cards);
+    padding: 20px;
+    border-radius: 1rem;
+    font-size: 9px;
+    margin: 10px;
+}
+
+.project-main{
+    display:inline-flex;
+}
+
+#card{
+    display: block;
+    background-color: var(--bg-cards);
+    border-radius: 1rem;
+    font-size: 9px;
+    margin: 10px;
+}
+
+.card-title{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.card-title img{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.card-description{
+    justify-content: left;
+    margin: 20px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+}
+.card-footer img{
+    display: flex;
+    margin: 5px;
+}
+
+.card-links{
+    display: flex;
+    align-items: center;
+}
+
+.card-type{
+    display: flex;
+    align-items: center;
+}
+
+#recent-posts{
+    display: block;
+    align-items: center;
+}
+
+.posts-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-cards);
+    padding: 20px;
+    border-radius: 1rem;
+    font-size: 9px;
+    margin: 10px 10px 20px 10px;
+}
+
+.posts-main{
+    display: flex;
+    background-color: var(--bg-cards);
+    border-radius: 1rem;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+}
+
+
+.posts-main img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.title-post{
+    display: flex;
+    font-size: 9px;
+    margin: 10px;
+}
+
+.time-post{
+    display: flex;
+    font-size: 6px;
+    margin: 10px 10px 20px 10px;
+}
+
+.resume-post{
+    display: flex;
+    font-size: 9px;
+    margin: 10px;
+}
+
+.mark-post{
+    display: flex;
+    font-size: 8px;
+    margin: 10px;
+    justify-content: space-between;
+    
+}
